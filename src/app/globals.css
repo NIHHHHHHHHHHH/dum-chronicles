@@ -2,34 +2,34 @@
 
 @theme {
   
-  /* Brand Colors */
-  --color-primary:        #C2410C;
-  --color-primary-dark:   #9A3412;
-  --color-secondary:      #92400E;
-  --color-accent:         #FCD34D;
-  --color-accent-dark:    #F59E0B;
-  --color-highlight:      #EA580C;
+  /* brand colors */
+  --color-primary: #C2410C;
+  --color-primary-dark: #9A3412;
+  --color-secondary: #92400E;
+  --color-accent: #FCD34D;
+  --color-accent-dark: #F59E0B;
+  --color-highlight: #EA580C;
 
-  /* Backgrounds */
-  --color-bg:             #0C0A09;
-  --color-surface:        #1C1917;
-  --color-surface-2:      #292524;
+  /* backgrounds */
+  --color-bg: #0C0A09;
+  --color-surface: #1C1917;
+  --color-surface-2: #292524;
 
-  /* Text */
-  --color-text:           #FEF3C7;
-  --color-text-muted:     #D6D3D1;
-  --color-text-faint:     #78716C;
+  /* text */
+  --color-text: #FEF3C7;
+  --color-text-muted: #D6D3D1;
+  --color-text-faint: #78716C;
 
-  /* Border */
-  --color-border:         rgba(252, 211, 77, 0.15);
-  --color-border-bright:  rgba(252, 211, 77, 0.4);
+  /* border */
+  --color-border: rgba(252, 211, 77, 0.15);
+  --color-border-bright:rgba(252, 211, 77, 0.4);
 
-  /* WhatsApp */
-  --color-whatsapp:       #25D366;
+  /* whatsapp */
+  --color-whatsapp:#25D366;
 
-  /* Font Families */
+  /* font families */
   --font-playfair: var(--font-playfair), serif;
-  --font-lato:     var(--font-lato), sans-serif;
+  --font-lato: var(--font-lato), sans-serif;
 }
 
 
@@ -47,9 +47,62 @@
     overflow-x: hidden;
   }
 
-  h1 {
+  h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-playfair), serif;
     color: var(--color-text);
+  }
+
+  ::selection {
+    background: var(--color-accent);
+    color: var(--color-bg);
+  }
+
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: var(--color-bg); }
+  ::-webkit-scrollbar-thumb { background: var(--color-accent); border-radius: 3px; }
+  ::-webkit-scrollbar-thumb:hover { background: var(--color-accent-dark); }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: var(--font-playfair), serif;
+  }
+
+  .font-body {
+    font-family: var(--font-lato), sans-serif;
+  }
+
+  
+  /* container */
+  .container-xl {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  @media (min-width: 640px) {
+    .container-xl {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .container-xl {
+      padding-left: 3rem;
+      padding-right: 3rem;
+    }
+  }
+
+
+  /* text gradient gold */
+  .text-gold-gradient {
+    background: linear-gradient(135deg, #FCD34D, #F59E0B, #FCD34D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
   }
 
 }
