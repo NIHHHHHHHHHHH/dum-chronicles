@@ -30,6 +30,10 @@
   /* font families */
   --font-playfair: var(--font-playfair), serif;
   --font-lato: var(--font-lato), sans-serif;
+
+  /* custom breakpoint */
+  --breakpoint-xs: 25rem; 
+
 }
 
 
