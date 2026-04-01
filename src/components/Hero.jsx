@@ -82,8 +82,8 @@ export default function Hero() {
           <motion.div variants={itemVariants} className="gold-divider mx-auto mb-6" />
 
           <motion.p variants={itemVariants} className="text-text-muted text-lg leading-relaxed mb-10 max-w-xl mx-auto font-body">
-            {restaurantInfo.cuisine} - crafted by {restaurantInfo.chef},{" "}
-            {restaurantInfo.chefExperience.toLowerCase()}, served with the grandeur of the Mughal kitchen.
+            {restaurantInfo.cuisine} - slow cooked with passion, served with the grandeur
+            of India's finest royal kitchen tradition.
           </motion.p>
 
           <motion.div variants={itemVariants} className="flex flex-wrap items-center justify-center gap-4">
