@@ -11,6 +11,129 @@ export const restaurantInfo = {
 };
 
 
+export const menuCategories = [
+  {
+    id: "starters",
+    label: "Starters",
+    items: [
+      {
+        id: 1,
+        name: "Galouti Kebab",
+        description: "Melt-in-mouth minced lamb patties, royal spice blend",
+        price: "₹380",
+        image: "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=600&auto=format&fit=crop&q=80",
+        tag: "Chef's Choice",
+      },
+      {
+        id: 2,
+        name: "Tandoori Jhinga",
+        description: "Jumbo prawns, saffron marinade, mint chutney",
+        price: "₹520",
+        image: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600&auto=format&fit=crop&q=80",
+        tag: "Bestseller",
+      },
+      {
+        id: 3,
+        name: "Shahi Paneer Tikka",
+        description: "Cottage cheese, royal spice blend, charcoal tandoor",
+        price: "₹290",
+        image: "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=600&auto=format&fit=crop&q=80",
+        tag: "Vegetarian",
+      },
+    ],
+  },
+  {
+    id: "mains",
+    label: "Main Course",
+    items: [
+      {
+        id: 4,
+        name: "Dum Gosht Biryani",
+        description: "Slow cooked mutton, aged basmati, saffron, fried onions",
+        price: "₹480",
+        image: "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=600&auto=format&fit=crop&q=80",
+        tag: "Signature",
+      },
+      {
+        id: 5,
+        name: "Butter Chicken Nawabi",
+        description: "Tender chicken, rich tomato cream, secret spice blend",
+        price: "₹360",
+        image: "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=600&auto=format&fit=crop&q=80",
+        tag: "Bestseller",
+      },
+      {
+        id: 6,
+        name: "Dal Zafrani",
+        description: "Black lentils, 48hr slow cooked, house butter, cream",
+        price: "₹240",
+        image: "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=600&auto=format&fit=crop&q=80",
+        tag: "Vegetarian",
+      },
+    ],
+  },
+  {
+    id: "breads",
+    label: "Breads",
+    items: [
+      {
+        id: 7,
+        name: "Sheermal",
+        description: "Saffron milk flatbread, slow baked in clay oven",
+        price: "₹80",
+        image: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=600&auto=format&fit=crop&q=80",
+        tag: "Traditional",
+      },
+      {
+        id: 8,
+        name: "Warqi Paratha",
+        description: "Layered flaky bread, pure ghee",
+        price: "₹70",
+        image: "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=600&auto=format&fit=crop&q=80",
+        tag: "Popular",
+      },
+      {
+        id: 9,
+        name: "Tandoori Roti",
+        description: "Whole wheat, clay oven fired",
+        price: "₹40",
+        image: "https://images.unsplash.com/photo-1600628421055-4d30de868b8f?w=600&auto=format&fit=crop&q=80",
+        tag: "Classic",
+      },
+    ],
+  },
+  {
+    id: "desserts",
+    label: "Desserts",
+    items: [
+      {
+        id: 10,
+        name: "Shahi Tukda",
+        description: "Royal bread pudding, rabri, rose water, pistachio",
+        price: "₹220",
+        image: "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=600&auto=format&fit=crop&q=80",
+        tag: "Royal",
+      },
+      {
+        id: 11,
+        name: "Kulfi Falooda",
+        description: "House made kulfi, vermicelli, basil seeds, rose syrup",
+        price: "₹180",
+        image: "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=600&auto=format&fit=crop&q=80",
+        tag: "Refreshing",
+      },
+      {
+        id: 12,
+        name: "Gulab Jamun",
+        description: "Soft milk solids, warm sugar syrup, cardamom",
+        price: "₹120",
+        image: "https://images.unsplash.com/photo-1666190092159-3171cf0fbb12?w=600&auto=format&fit=crop&q=80",
+        tag: "Classic",
+      },
+    ],
+  },
+];
+
 
 export const navLinks = [
   { label: "Menu", href: "#menu" },
