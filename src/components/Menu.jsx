@@ -23,7 +23,7 @@ export default function Menu() {
           <div className="gold-divider" />
         </AnimatedSection>
 
-        {/*  Tab Navigation  */}
+        {/*  tab navigation  */}
         <AnimatedSection delay={0.1} className="flex flex-wrap justify-center gap-2 mb-12">
           {menuCategories.map((cat) => (
             <button
@@ -40,7 +40,6 @@ export default function Menu() {
           ))}
         </AnimatedSection>
 
-        {/*  Menu Items  */}
         <AnimatePresence mode="wait">
           <motion.div
             key={activeTab}
@@ -58,7 +57,6 @@ export default function Menu() {
                 transition={{ delay: i * 0.1, duration: 0.5 }}
               >
                 <Card className=" overflow-hidden h-full flex flex-col">
-                  {/* Image */}
                   <div className="relative h-64 overflow-hidden">
                     <Image
                       src={item.image}
@@ -68,22 +66,14 @@ export default function Menu() {
                       sizes="(max-width: 768px) 100vw, 33vw"
                     />
                     <div className="absolute inset-0 bg-linear-to-t from-surface via-transparent to-transparent" />
-                    {/* Tag */}
-                    <span className="absolute top-3 left-3 bg-accent text-bg text-[10px] font-body font-bold px-3 py-1 rounded-full tracking-widest uppercase">
-                      {item.tag}
-                    </span>
-                    {/* Price */}
-                    <span className="absolute bottom-3 right-3 font-display font-bold text-accent text-lg">
-                      {item.price}
-                    </span>
+                    <span className="absolute top-3 left-3 bg-accent text-bg text-[10px] font-body font-bold px-3 py-1 rounded-full tracking-widest uppercase">{item.tag}</span>
+                    <span className="absolute bottom-3 right-3 font-display font-bold text-accent text-lg">{item.price}</span>
                   </div>
 
-                  {/* Content */}
+                  {/* content */}
                   <div className="p-5 flex-1 flex flex-col">
                     <h3 className="font-display font-bold text-xl text-text mb-2">{item.name}</h3>
-                    <p className="text-text-muted text-sm leading-relaxed font-body flex-1">
-                      {item.description}
-                    </p>
+                    <p className="text-text-muted text-sm leading-relaxed font-body flex-1"> {item.description}</p>
                   </div>
                 </Card>
               </motion.div>
