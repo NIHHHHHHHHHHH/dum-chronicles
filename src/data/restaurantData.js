@@ -168,6 +168,39 @@ export const specialities = [
   },
 ];
 
+export const ambienceImages = [
+  {
+    id: 1,
+    src: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&auto=format&fit=crop&q=80",
+    alt: "Elegant restaurant interior",
+    span: "large",
+  },
+  {
+    id: 2,
+    src: "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=600&auto=format&fit=crop&q=80",
+    alt: "Signature biryani presentation",
+    span: "small",
+  },
+  {
+    id: 3,
+    src: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&auto=format&fit=crop&q=80",
+    alt: "Fine dining table setting",
+    span: "small",
+  },
+  {
+    id: 4,
+    src: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600&auto=format&fit=crop&q=80",
+    alt: "Chef preparing kebabs",
+    span: "small",
+  },
+  {
+    id: 5,
+    src: "https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?w=800&auto=format&fit=crop&q=80",
+    alt: "Royal dining ambience",
+    span: "large",
+  },
+];
+
 
 export const navLinks = [
   { label: "Menu", href: "#menu" },
