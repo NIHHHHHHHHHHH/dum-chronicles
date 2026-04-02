@@ -4,6 +4,7 @@ import About from "@/components/About";
 import Menu from "@/components/Menu";
 import Specialities from "@/components/Specialities";
 import Ambience from "@/components/Ambience";
+import Testimonials from "@/components/Testimonials";
 
 
 export default function home(){
@@ -15,6 +16,7 @@ return(
      <Menu />
      <Specialities />
      <Ambience />
+     <Testimonials />
     </>
 );
 }

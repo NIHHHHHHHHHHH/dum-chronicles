@@ -202,6 +202,34 @@ export const ambienceImages = [
 ];
 
 
+export const testimonials = [
+  {
+    id: 1,
+    quote: "The Dum Gosht Biryani alone is worth the trip from Mumbai. Absolutely unmatched anywhere in Pune.",
+    name: "Rohit Deshmukh",
+    city: "Mumbai",
+    rating: 5,
+    initials: "RD",
+  },
+  {
+    id: 2,
+    quote:"We celebrated our anniversary here and the experience was pure royalty. Staff, food, ambience - all 10/10.",
+    name: "Neha & Vikram Joshi",
+    city: "Pune",
+    rating: 5,
+    initials: "NV",
+  },
+  {
+    id: 3,
+    quote:"The Galouti Kebabs here have ruined every other kebab for me forever. Nothing comes close.",
+    name: "Arjun Malhotra",
+    city: "Delhi",
+    rating: 5,
+    initials: "AM",
+  },
+];
+
+
 export const navLinks = [
   { label: "Menu", href: "#menu" },
   { label: "Specialities", href: "#specialities" },
