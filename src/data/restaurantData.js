@@ -135,6 +135,40 @@ export const menuCategories = [
 ];
 
 
+export const specialities = [
+  {
+    id: 1,
+    name: "The Royal Biryani Experience",
+    description:
+      "Chef's table special, served in traditional handi. A ceremony of flavours slow-cooked to perfection. Minimum 2 persons.",
+    price: "₹960",
+    priceNote: "for 2 persons",
+    image: "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800&auto=format&fit=crop&q=80",
+    badge: "Chef's Table",
+  },
+  {
+    id: 2,
+    name: "Zafrani Raan",
+    description:
+      "Whole leg of lamb, 12 hour marination in royal spices, slow roasted in the tandoor until fall-off-the-bone tender. Serves 4.",
+    price: "₹2,200",
+    priceNote: "serves 4",
+    image: "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=800&auto=format&fit=crop&q=80",
+    badge: "Requires Advance Order",
+  },
+  {
+    id: 3,
+    name: "Nawabi Thali",
+    description:
+      "A 14-item royal spread featuring everything on the menu in one magnificent sitting. The complete Zafrani experience.",
+    price: "₹680",
+    priceNote: "per person",
+    image: "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=800&auto=format&fit=crop&q=80",
+    badge: "Complete Experience",
+  },
+];
+
+
 export const navLinks = [
   { label: "Menu", href: "#menu" },
   { label: "Specialities", href: "#specialities" },
