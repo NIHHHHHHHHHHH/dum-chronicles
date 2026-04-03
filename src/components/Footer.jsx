@@ -9,8 +9,7 @@ export default function Footer() {
 
   return (
     <footer className="relative bg-surface border-t border-border overflow-hidden">
-      <div
-        className="absolute inset-0 opacity-[0.04] pointer-events-none"
+      <div className="absolute inset-0 opacity-[0.04] pointer-events-none"
         style={{ backgroundImage: "radial-gradient(circle, rgba(252,211,77,0.8) 1px, transparent 1px)", backgroundSize: "40px 40px",}}/>
 
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-200 h-50 rounded-full bg-accent/5 blur-3xl pointer-events-none" />
@@ -98,7 +97,7 @@ export default function Footer() {
 
         <div className="border-t border-border">
           <div className="container-xl py-6 flex flex-col sm:flex-row items-center justify-between gap-4">
-            <p className="text-text-faint text-xs font-body tracking-widest uppercase">Reservations Open — {restaurantInfo.timings.days}</p>
+            <p className="text-text-faint text-xs font-body tracking-widest uppercase">Reservations Open - {restaurantInfo.timings.days}</p>
             <a href="#reservation" className="text-accent border border-accent text-xs font-body font-bold tracking-[0.25em] uppercase px-8 py-2.5 rounded-full hover:bg-accent hover:text-bg transition-all duration-300">
               Reserve a Table
             </a>

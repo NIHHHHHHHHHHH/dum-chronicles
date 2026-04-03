@@ -170,13 +170,13 @@ export default function Reservation() {
             {errors.phone && <p className="text-red-400 text-xs mt-1 font-body">{errors.phone}</p>}
           </div>
 
-          <div className="grid grid-colos-1 xs:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div className="relative">
               <label className="block text-text-faint text-[10px] font-body tracking-[0.25em] uppercase mb-2">Date</label>
               <input
                 name="date" type="date" value={form.date}
                 onChange={handleChange} min={today}
-                className={`w-full bg-transparent border-b pb-2 text-text font-body text-sm focus:outline-none transition-colors duration-300 cursor-pointer ${errors.date ? "border-red-500" : "border-border focus:border-accent"}`}
+                className={`w-full bg-transparent border-b pb-2 text-text font-body text-sm focus:outline-none transition-colors duration-300 cursor-pointer [&::-webkit-calendar-picker-indicator]:invert   ${errors.date ? "border-red-500" : "border-border focus:border-accent"}`}
               />
               {errors.date && <p className="text-red-400 text-xs mt-1 font-body">{errors.date}</p>}
             </div>
