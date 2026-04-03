@@ -1,5 +1,6 @@
 import { Playfair_Display, Lato } from "next/font/google";
 import "./globals.css";
+import WhatsAppFAB from "@/components/WhatsAppFAB";
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -26,7 +27,10 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${playfair.variable} ${lato.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        {children}
+        <WhatsAppFAB />
+        </body>
     </html>
   );
 }
