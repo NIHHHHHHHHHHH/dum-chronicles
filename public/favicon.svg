@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+    <!-- Dark background -->
+    <rect width="64" height="64" rx="14" fill="#1C1917" />
+    <!-- Steam lines -->
+    <path d="M22 16 Q20 12 22 8" stroke="#FCD34D" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.7" />
+    <path d="M32 14 Q30 10 32 6" stroke="#FCD34D" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.7" />
+    <path d="M42 16 Q40 12 42 8" stroke="#FCD34D" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.7" />
+    <!-- Lid handle -->
+    <rect x="29" y="18" width="6" height="6" rx="3" fill="#FCD34D" />
+    <!-- Lid -->
+    <ellipse cx="32" cy="24" rx="13" ry="3" fill="#FCD34D" />
+    <!-- Pot rim -->
+    <ellipse cx="32" cy="26" rx="16" ry="4" fill="#EA580C" />
+    <!-- Handi pot body -->
+    <ellipse cx="32" cy="38" rx="16" ry="12" fill="#C2410C" />
+    <!-- Pot base -->
+    <ellipse cx="32" cy="49" rx="10" ry="2.5" fill="#9A3412" />
+</svg>
