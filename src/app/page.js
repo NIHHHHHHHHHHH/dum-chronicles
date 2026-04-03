@@ -7,6 +7,7 @@ import Ambience from "@/components/Ambience";
 import Testimonials from "@/components/Testimonials";
 import Reservation from "@/components/Reservation";
 import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 
 export default function home(){
@@ -21,6 +22,7 @@ return(
      <Testimonials />
      <Reservation />
      <Contact />
+     <Footer />
     </>
 );
 }
